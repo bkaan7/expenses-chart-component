@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+
+
+
+.balance {
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(10, 79%, 65%);
+  margin-bottom: 20px;
+  color: hsl(27, 66%, 92%);
+  font-weight: 500;
+}
+
+.money {
+  display: grid;
+}
+
+.chartArea {
+  padding: 15px;
+  width: 350px;
+  height: 350px;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 15px;
+}
+
+.bottomArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  border-top: 1px solid hsl(28, 10%, 53%);
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.box1 {
+  display: grid;
+}
+
+.box2 {
+  display: grid;
+  text-align: end;
+}
+
+.dollars {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.box1 span:first-of-type {
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+}
+
+.box1 span:last-of-type {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.box2 span:first-of-type {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.box2 span:last-of-type {
+  color: hsl(28, 10%, 53%);
+}
+
+#myChart{
+    cursor: pointer;
+}
